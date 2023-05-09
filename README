@@ -1,3 +1,120 @@
-This is a collection of definitions and terms relevant to an aspiring junior developer and interview questions and terms they may encounter
+# Interview cheat sheet
+- with terms and examples of code
 
-https://docs.google.com/document/d/1PzvVOC5hImtJbPkMit4o91elggvaPl0_/edit
+
+## Tech Stack
+
+# 1) Describe Object Oriented Programming, how it can be useful, and give an example of the following in the language of your choice.
+
+ - An OOP class
+Object-oriented programming is ultimately about taking a huge problem and breaking it down to solvable chunks. For each mini-problem, you write a class that does what you require. And then — best of all — you can reuse those classes, which makes it even quicker to solve the next problem
+
+Object Oriented Programming is ultimately about modeling objects that have specific properties and methods. An object model is known as a Class. Classes allow for managing object properties and methods in a single place. Classes also allow for creating multiple object instances.
+
+ - Encapsulation
+Encapsulation is when the property of one object is another object itself.
+
+[Encapsulation code example](https://github.com/GuaBaiChi/Interview-Cheatsheet/blob/main/Encapsulation.py)
+
+In the above, Bar ENCAPSULATES Foo
+
+ - Inheritance
+Inheritance allows programmers to create classes that are built upon existing classes, to specify a new implementation while maintaining the same behaviors (realizing an interface), to reuse code and to independently extend original software via public classes and interfaces.
+
+ - Abstraction / Interfaces
+The short answer: An abstract class allows you to create functionality that subclasses can implement or override. An interface only allows you to define functionality, not implement it. And whereas a class can extend only one abstract class, it can take advantage of multiple interfaces.
+
+ - Polymorphism
+It refers to something having many forms, referring to both objects and methods. Polymorphism allows you to code to an interface that reduces coupling, increases reusability, and makes your code easier to read.
+
+More specifically, Polymorphism allows for defining a routine within a base class or interface and override that routine within different inheriting classes
+
+
+
+# 2) Describe Data Structures, their applications, and give examples of the following in a language of your choice:
+
+ - Stack
+Application of the Stack
+A Stack can be used for evaluating expressions consisting of operands and operators.
+[Stack code example](https://github.com/GuaBaiChi/Interview-Cheatsheet/blob/main/Stack.py)
+
+Stacks can be used for Backtracking, i.e., to check parenthesis matching in an expression.
+
+https://www.tutorialspoint.com/python_data_structure/python_backtracking.htm
+It can also be used to convert one form of expression to another form.
+It can be used for systematic Memory Management.
+
+
+ - Linked List
+A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers as shown in the below image:
+
+ - Tree
+A tree is a type of data structure that represents a hierarchical relationship between data elements, called nodes. The top node in the tree is called the root, and the elements below the root are called child nodes. Each child node may have one or more child nodes of its own, forming a branching structure. The nodes at the bottom of the tree, which do not have any child nodes, are called leaf nodes.
+A tree is a non-linear data structure, meaning that elements are not stored in a linear sequence like in an array or a linked list. Instead, elements are organized in a hierarchical structure, with each element having a parent-child relationship with other elements.
+
+Note that the relationships between nodes of a tree are similar to that of nodes in a Linked-List
+
+ - HashMap
+Hash maps are a common data structure used to store key-value pairs for efficient retrieval. A value stored in a hash map is retrieved using the key under which it was stored. # `states` is a Hash Map with state abbreviation keys and state name values.
+
+HashMaps are arrays, but instead of indexing into them directly as you would with an array, you HASH the key and MOD by the size of the internal array, giving you a "random" index within the internal array where a value can be stored.
+
+In code it would look something like
+
+HashMapArray = [0,1,2,3,4,5,6,...]
+Key = "Some Key"
+Index = hash(Key) % len(HashMapArray)
+Value = HashMapArray[Index]
+
+
+# 3) Optimization: Describe time and space complexity and when they are most important. Give an example, in code, of an algorithm that has O(n^2) complexity and another example that performs the same task in O(nlogn) or less.
+https://www.youtube.com/watch?v=KXAbAa1mieU
+
+# 4) In your own words, describe the following
+- Concurrency
+- Parallelism
+- Distributed
+- Threads
+- Asynchronous
+
+- Concurrency & Parallelism
+Computer science makes the distinction between parallel and concurrent computations. Parallel computations are those that just run separate independent computations in parallel (in other words, parallelism is pure). Concurrent computations are those where there are multiple interacting threads of computation. Concurrency usually involves threads, locks, messages and deadlocks.
+
+- Distributed computing is the method of making multiple computers work together to solve a common problem. It makes a computer network appear as a powerful single computer that provides large-scale resources to deal with complex challenges.
+
+- Thread is an independent set of values for the processor registers (for a single core).
+Threads also have their own stack
+Since this includes the Instruction Pointer (aka Program Counter), it controls what executes in what order. It also includes the Stack Pointer, which had better point to a unique area of memory for each thread or else they will interfere with each other.
+
+- Asynchronous
+https://medium.com/velotio-perspectives/an-introduction-to-asynchronous-programming-in-python-af0189a88bbb
+
+
+
+# 5) Briefly describe Linux/Unix operating systems and why software engineers may prefer them over alternatives
+
+-Linux/Unix
+
+# 6) Solve an Easy/Medium leetcode challenge and give a write-up of how you interpreted the problem and came up with a solution.
+- Where any specific data structures useful?
+- Where any specific algorithms useful?
+
+# 7) Describe collaboration tools used by Software Engineers and what they are used for
+
+I’ve used github, discord, teams, vsc, docker, asana, linux
+
+# 8) Discuss reasons why writing code modules is useful as opposed to writing everything in a single file. The following topics should be mentioned.
+- Maintainability
+- Reusability
+- Complexity
+- Collaboration
+
+-Maintainability
+
+-Reusability
+
+-Complexity
+
+-Collaboration
+
+
