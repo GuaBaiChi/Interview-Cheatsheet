@@ -2,9 +2,9 @@
 - with terms and examples of code
 
 
-# Tech Stack
+## Tech Stack
 
-# 1) Describe Object Oriented Programming, how it can be useful, and give an example of the following in the language of your choice.
+## 1) Describe Object Oriented Programming, how it can be useful, and give an example of the following in the language of your choice.
 
  - An OOP class
 Object-oriented programming is ultimately about taking a huge problem and breaking it down to solvable chunks. For each mini-problem, you write a class that does what you require. And then — best of all — you can reuse those classes, which makes it even quicker to solve the next problem
