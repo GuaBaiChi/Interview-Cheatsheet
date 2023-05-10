@@ -71,9 +71,9 @@ Value = HashMapArray[Index]
 
 ## 3) Optimization: Describe time and space complexity and when they are most important. Give an example, in code, of an algorithm that has O(n^2) complexity and another example that performs the same task in O(nlogn) or less.
 
-[Bubble Sort for O(n^2)](Github link goes here)
+[Bubble Sort for O(n^2)](https://github.com/GuaBaiChi/Interview-Cheatsheet/blob/main/ComplexityBubble.py)
 
-[Merge Sort for O(nlogn)](Github link goes here)
+[Merge Sort for O(nlogn)](https://github.com/GuaBaiChi/Interview-Cheatsheet/blob/main/ComplexityMergeSort.py)
 
 [Youtube tutorial](https://www.youtube.com/watch?v=KXAbAa1mieU) for time and space complexity 
 
