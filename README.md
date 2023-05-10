@@ -34,7 +34,9 @@ More specifically, Polymorphism allows for defining a routine within a base clas
 ## 2) Describe Data Structures, their applications, and give examples of the following in a language of your choice:
 
  - Stack
+
 Application of the Stack
+
 A Stack can be used for evaluating expressions consisting of operands and operators.
 
 [Stack code example](https://github.com/GuaBaiChi/Interview-Cheatsheet/blob/main/Stack.py)
@@ -50,26 +52,30 @@ function call stack / stacktrace
 [Stack Trace example](https://github.com/GuaBaiChi/Interview-Cheatsheet/blob/main/StackTrace.py)
 
  - Linked List
+
 A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers as shown in the below image:
 
  - Tree
+
 A tree is a type of data structure that represents a hierarchical relationship between data elements, called nodes. The top node in the tree is called the root, and the elements below the root are called child nodes. Each child node may have one or more child nodes of its own, forming a branching structure. The nodes at the bottom of the tree, which do not have any child nodes, are called leaf nodes.
 A tree is a non-linear data structure, meaning that elements are not stored in a linear sequence like in an array or a linked list. Instead, elements are organized in a hierarchical structure, with each element having a parent-child relationship with other elements.
 
 Note that the relationships between nodes of a tree are similar to that of nodes in a Linked-List
 
  - HashMap
- 
+
 Hash maps are a common data structure used to store key-value pairs for efficient retrieval. A value stored in a hash map is retrieved using the key under which it was stored. # `states` is a Hash Map with state abbreviation keys and state name values.
 
 HashMaps are arrays, but instead of indexing into them directly as you would with an array, you HASH the key and MOD by the size of the internal array, giving you a "random" index within the internal array where a value can be stored.
 
 In code it would look something like
 
+```py
 HashMapArray = [0,1,2,3,4,5,6,...]
 Key = "Some Key"
 Index = hash(Key) % len(HashMapArray)
 Value = HashMapArray[Index]
+```
 
 
 ## 3) Optimization: Describe time and space complexity and when they are most important. Give an example, in code, of an algorithm that has O(n^2) complexity and another example that performs the same task in O(nlogn) or less.
@@ -89,15 +95,21 @@ Value = HashMapArray[Index]
 - Asynchronous
 
 - Concurrency & Parallelism
+
 Computer science makes the distinction between parallel and concurrent computations. Parallel computations are those that just run separate independent computations in parallel (in other words, parallelism is pure). Concurrent computations are those where there are multiple interacting threads of computation. Concurrency usually involves threads, locks, messages and deadlocks.
 
-- Distributed computing is the method of making multiple computers work together to solve a common problem. It makes a computer network appear as a powerful single computer that provides large-scale resources to deal with complex challenges.
+- Distributed 
 
-- Thread is an independent set of values for the processor registers (for a single core).
+Distributed computing is the method of making multiple computers work together to solve a common problem. It makes a computer network appear as a powerful single computer that provides large-scale resources to deal with complex challenges.
+
+- Thread 
+
+Threadis an independent set of values for the processor registers (for a single core).
 Threads also have their own stack
 Since this includes the Instruction Pointer (aka Program Counter), it controls what executes in what order. It also includes the Stack Pointer, which had better point to a unique area of memory for each thread or else they will interfere with each other.
 
 - Asynchronous
+
 Asynchronous programming is a type of parallel programming in which a unit of work is allowed to run separately from the primary application thread. When the work is complete, it notifies the main thread about completion or failure of the worker thread.
 
 https://medium.com/velotio-perspectives/an-introduction-to-asynchronous-programming-in-python-af0189a88bbb
@@ -123,26 +135,33 @@ Pros: Bash/terminal, scalability and speed, compatible with programming language
 I’ve used github, discord, teams, vsc, docker, asana, linux
 
 - github
+
 is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project
 
 It’s useful for programmers because in addition to the capabilities listed above it allows for collaboration and editing of repositories and projects.
 
 - discord
+
 Discord is a messaging communication platform that allows for sending files and has voice communication. It is useful for programmers because the formatting of messages in Discord allows for markdown format/syntax that allows for seeing code in messages. Though it does require payments for long messages.
 
 - Visual Studio Code(VSC)
+
 An Integrated Development Environment(IDE) made by Microsoft. Recently made free and has amazing integration with Github and has many many useful Extensions that help with coding format, suggestions and syntax and more.
 
 - Asana
+
 Meaning yoga positions and posture. This is a collaboration website that allows for assigning of tasks. This is useful for many kinds of projects but especially useful for software engineers since projects, tasks and issues can snowball quickly and record keeping what needs to be done and assigned to who is capable.
 
 - Linux & Windows Subsystem for Linux (WSL)
+
 Linux is an open source operating system based on a kernel and with many to choose from. WSL is a way for Windows to have Linux running within it. This is especially useful with VSC as it allows for programming to be done in Linux instead of on Windows. This has many advantages for programmers as Linux/WSL consume fewer resources and most importantly run the Bash terminal.
 
 - Teams
+
 Another communication platform useful for communicating with project members.
 
 - Slack
+
 A professional type of Discord
 
 
