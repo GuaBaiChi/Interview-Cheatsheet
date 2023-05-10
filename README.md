@@ -16,7 +16,7 @@ Encapsulation is when the property of one object is another object itself.
 
 [Encapsulation code example](https://github.com/GuaBaiChi/Interview-Cheatsheet/blob/main/Encapsulation.py)
 
-In the above, Bar ENCAPSULATES Foo
+In the above, Bar encapsulates Foo
 
  - Inheritance
 Inheritance allows programmers to create classes that are built upon existing classes, to specify a new implementation while maintaining the same behaviors (realizing an interface), to reuse code and to independently extend original software via public classes and interfaces.
@@ -43,7 +43,9 @@ Stacks can be used for Backtracking, i.e., to check parenthesis matching in an e
 https://www.tutorialspoint.com/python_data_structure/python_backtracking.htm
 It can also be used to convert one form of expression to another form.
 It can be used for systematic Memory Management.
+function call stack / stacktrace
 
+[Stack Trace example](wait for github link)
 
  - Linked List
 A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers as shown in the below image:
@@ -67,8 +69,14 @@ Index = hash(Key) % len(HashMapArray)
 Value = HashMapArray[Index]
 
 
-# 3) Optimization: Describe time and space complexity and when they are most important. Give an example, in code, of an algorithm that has O(n^2) complexity and another example that performs the same task in O(nlogn) or less.
-https://www.youtube.com/watch?v=KXAbAa1mieU
+## 3) Optimization: Describe time and space complexity and when they are most important. Give an example, in code, of an algorithm that has O(n^2) complexity and another example that performs the same task in O(nlogn) or less.
+
+[Bubble Sort for O(n^2)](Github link goes here)
+
+[Merge Sort for O(nlogn)](Github link goes here)
+
+[Youtube tutorial](https://www.youtube.com/watch?v=KXAbAa1mieU) for time and space complexity 
+
 
 # 4) In your own words, describe the following
 - Concurrency
@@ -87,34 +95,77 @@ Threads also have their own stack
 Since this includes the Instruction Pointer (aka Program Counter), it controls what executes in what order. It also includes the Stack Pointer, which had better point to a unique area of memory for each thread or else they will interfere with each other.
 
 - Asynchronous
+Asynchronous programming is a type of parallel programming in which a unit of work is allowed to run separately from the primary application thread. When the work is complete, it notifies the main thread about completion or failure of the worker thread.
+
 https://medium.com/velotio-perspectives/an-introduction-to-asynchronous-programming-in-python-af0189a88bbb
+
 
 
 
 # 5) Briefly describe Linux/Unix operating systems and why software engineers may prefer them over alternatives
 
--Linux/Unix
+Linux(GNU/Linux) is a clone of Unix. open source v copyright.
+kernel vs complete OS
+Unix is a copyrighted name and IBM AIX, HP-UX and Sun Solaris are the only Unix operating systems remaining till date.
+
+Pros: Bash/terminal, scalability and speed, compatible with programming languages, control, installation size, community support amongst other engineers
+
 
 # 6) Solve an Easy/Medium leetcode challenge and give a write-up of how you interpreted the problem and came up with a solution.
 - Where any specific data structures useful?
 - Where any specific algorithms useful?
 
-# 7) Describe collaboration tools used by Software Engineers and what they are used for
+## 7) Describe collaboration tools used by Software Engineers and what they are used for
 
 I’ve used github, discord, teams, vsc, docker, asana, linux
 
-# 8) Discuss reasons why writing code modules is useful as opposed to writing everything in a single file. The following topics should be mentioned.
+- github
+is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project
+
+It’s useful for programmers because in addition to the capabilities listed above it allows for collaboration and editing of repositories and projects.
+
+- discord
+Discord is a messaging communication platform that allows for sending files and has voice communication. It is useful for programmers because the formatting of messages in Discord allows for markdown format/syntax that allows for seeing code in messages. Though it does require payments for long messages.
+
+- Visual Studio Code(VSC)
+An Integrated Development Environment(IDE) made by Microsoft. Recently made free and has amazing integration with Github and has many many useful Extensions that help with coding format, suggestions and syntax and more.
+
+- Asana
+Meaning yoga positions and posture. This is a collaboration website that allows for assigning of tasks. This is useful for many kinds of projects but especially useful for software engineers since projects, tasks and issues can snowball quickly and record keeping what needs to be done and assigned to who is capable.
+
+- Linux & Windows Subsystem for Linux (WSL)
+Linux is an open source operating system based on a kernel and with many to choose from. WSL is a way for Windows to have Linux running within it. This is especially useful with VSC as it allows for programming to be done in Linux instead of on Windows. This has many advantages for programmers as Linux/WSL consume fewer resources and most importantly run the Bash terminal.
+
+- Teams
+Another communication platform useful for communicating with project members.
+
+- Slack
+A professional type of Discord
+
+
+## 8) Discuss reasons why writing code modules is useful as opposed to writing everything in a single file. The following topics should be mentioned.
 - Maintainability
 - Reusability
 - Complexity
 - Collaboration
 
--Maintainability
 
--Reusability
+Writing code modules is dividing a program into smaller, self-contained units. Modules improve code organization, readability, and ease of modification. 
 
--Complexity
+They allow for code reuse, reducing redundancy and promoting consistency. Modules manage complexity by isolating functionalities. They enable independent work and seamless integration, supporting collaboration among developers.
 
--Collaboration
+
+- Maintainability
+Refers to the ease with which a software system or application can be maintained and updated over time
+
+- Reusability
+The ability of software components or modules to be used in multiple contexts or applications without significant modifications.
+
+- Complexity
+Can refer to the size of the codebase, the number of modules or components, the interactions between different parts, and the computational resources required to execute a program.
+
+- Collaboration
+The cooperative efforts and interaction between individuals or teams working together on a software project.
+
 
 
