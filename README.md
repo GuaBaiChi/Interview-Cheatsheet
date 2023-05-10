@@ -59,6 +59,7 @@ A tree is a non-linear data structure, meaning that elements are not stored in a
 Note that the relationships between nodes of a tree are similar to that of nodes in a Linked-List
 
  - HashMap
+ 
 Hash maps are a common data structure used to store key-value pairs for efficient retrieval. A value stored in a hash map is retrieved using the key under which it was stored. # `states` is a Hash Map with state abbreviation keys and state name values.
 
 HashMaps are arrays, but instead of indexing into them directly as you would with an array, you HASH the key and MOD by the size of the internal array, giving you a "random" index within the internal array where a value can be stored.
