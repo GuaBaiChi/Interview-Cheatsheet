@@ -31,7 +31,7 @@ More specifically, Polymorphism allows for defining a routine within a base clas
 
 
 
-# 2) Describe Data Structures, their applications, and give examples of the following in a language of your choice:
+## 2) Describe Data Structures, their applications, and give examples of the following in a language of your choice:
 
  - Stack
 Application of the Stack
@@ -80,7 +80,7 @@ Value = HashMapArray[Index]
 [Youtube tutorial](https://www.youtube.com/watch?v=KXAbAa1mieU) for time and space complexity 
 
 
-# 4) In your own words, describe the following
+## 4) In your own words, describe the following
 - Concurrency
 - Parallelism
 - Distributed
@@ -104,7 +104,7 @@ https://medium.com/velotio-perspectives/an-introduction-to-asynchronous-programm
 
 
 
-# 5) Briefly describe Linux/Unix operating systems and why software engineers may prefer them over alternatives
+## 5) Briefly describe Linux/Unix operating systems and why software engineers may prefer them over alternatives
 
 Linux(GNU/Linux) is a clone of Unix. open source v copyright.
 kernel vs complete OS
@@ -113,7 +113,7 @@ Unix is a copyrighted name and IBM AIX, HP-UX and Sun Solaris are the only Unix 
 Pros: Bash/terminal, scalability and speed, compatible with programming languages, control, installation size, community support amongst other engineers
 
 
-# 6) Solve an Easy/Medium leetcode challenge and give a write-up of how you interpreted the problem and came up with a solution.
+## 6) Solve an Easy/Medium leetcode challenge and give a write-up of how you interpreted the problem and came up with a solution.
 - Where any specific data structures useful?
 - Where any specific algorithms useful?
 
