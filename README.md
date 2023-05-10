@@ -36,16 +36,18 @@ More specifically, Polymorphism allows for defining a routine within a base clas
  - Stack
 Application of the Stack
 A Stack can be used for evaluating expressions consisting of operands and operators.
+
 [Stack code example](https://github.com/GuaBaiChi/Interview-Cheatsheet/blob/main/Stack.py)
 
 Stacks can be used for Backtracking, i.e., to check parenthesis matching in an expression.
 
 https://www.tutorialspoint.com/python_data_structure/python_backtracking.htm
+
 It can also be used to convert one form of expression to another form.
 It can be used for systematic Memory Management.
 function call stack / stacktrace
 
-[Stack Trace example](wait for github link)
+[Stack Trace example](https://github.com/GuaBaiChi/Interview-Cheatsheet/blob/main/StackTrace.py)
 
  - Linked List
 A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers as shown in the below image:
