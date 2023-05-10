@@ -132,11 +132,11 @@ Pros: Bash/terminal, scalability and speed, compatible with programming language
 
 ## 7) Describe collaboration tools used by Software Engineers and what they are used for
 
-I’ve used github, discord, teams, vsc, docker, asana, linux
+I’ve used Github, Discord, Teams, VSC, Docker, Asana, Linux
 
-- github
+- Github
 
-is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project
+Github is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project
 
 It’s useful for programmers because in addition to the capabilities listed above it allows for collaboration and editing of repositories and projects.
 
@@ -178,16 +178,17 @@ They allow for code reuse, reducing redundancy and promoting consistency. Module
 
 
 - Maintainability
+
 Refers to the ease with which a software system or application can be maintained and updated over time
 
 - Reusability
+
 The ability of software components or modules to be used in multiple contexts or applications without significant modifications.
 
 - Complexity
+
 Can refer to the size of the codebase, the number of modules or components, the interactions between different parts, and the computational resources required to execute a program.
 
 - Collaboration
+
 The cooperative efforts and interaction between individuals or teams working together on a software project.
-
-
-
