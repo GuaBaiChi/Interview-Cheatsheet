@@ -55,6 +55,10 @@ function call stack / stacktrace
 
 A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers as shown in the below image:
 
+https://www.geeksforgeeks.org/data-structures/linked-list/
+
+https://www.freecodecamp.org/news/introduction-to-linked-lists-in-python/
+
  - Tree
 
 A tree is a type of data structure that represents a hierarchical relationship between data elements, called nodes. The top node in the tree is called the root, and the elements below the root are called child nodes. Each child node may have one or more child nodes of its own, forming a branching structure. The nodes at the bottom of the tree, which do not have any child nodes, are called leaf nodes.
@@ -70,13 +74,7 @@ HashMaps are arrays, but instead of indexing into them directly as you would wit
 
 In code it would look something like
 
-```py
-HashMapArray = [0,1,2,3,4,5,6,...]
-Key = "Some Key"
-Index = hash(Key) % len(HashMapArray)
-Value = HashMapArray[Index]
-```
-
+[HashMap code example](https://github.com/GuaBaiChi/Interview-Cheatsheet/blob/main/HashMap.py)
 
 ## 3) Optimization: Describe time and space complexity and when they are most important. Give an example, in code, of an algorithm that has O(n^2) complexity and another example that performs the same task in O(nlogn) or less.
 
